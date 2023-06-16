@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping Cart Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Shopping Cart Example</h1>
+
+  <button class="product-btn" onclick="addToCart('Product 1', 10.99)">Add Product 1 to Cart</button>
+  <button class="product-btn" onclick="addToCart('Product 2', 15.99)">Add Product 2 to Cart</button>
+  <button class="product-btn" onclick="addToCart('Product 4', 10.99)">Add Product 4 to Cart</button>
+  <button class="product-btn" onclick="addToCart('Product 3', 15.99)">Add Product 3 to Cart</button>
+  <button class="product-btn" onclick="removeFromCart('Product 1')">Remove Product 1 from Cart</button>
+
+  <h2>Cart:</h2>
+  <div id="cart-container"></div>
+
+  <h2 id="total-container"></h2>
+
+  <script src="cc.js"></script>
+</body>
+</html>
